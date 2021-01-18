@@ -1,0 +1,45 @@
+.header{
+	background: #1781BF;
+}
+.popular{
+	font-size: 23px;
+}
+.carousel-item {
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer_part{
+	background: #222222;
+	padding: 50px 0px 10px 0px;
+}
+.social{
+  margin-left: -42px;
+}
+.social ul li{
+  text-decoration: none;
+  display: inline-block;
+}
+.social ul li a{
+  border-radius: 50px;
+}
+.social ul li a i{
+  border-radius: 50px;
+  padding: 10px;
+  background: #1CA261;
+  color: #fff;
+}
+.social ul li a i:hover{
+  padding: 12px;
+  background: #2A70A1;
+  color: #fff;
+}
+.gotoup{
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  cursor: pointer;
+}

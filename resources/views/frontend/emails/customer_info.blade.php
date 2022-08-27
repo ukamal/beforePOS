@@ -9,11 +9,11 @@
 	<p>Your Details</p>
 	<table>
 		<tr>
-			<td>Name: 	 </td>
-			<td>Email: 	 </td>
-			<td>Mobile:  </td>
-			<td>Address: </td>
-			<td>Message: </td>
+			<td>Name: 	 {{ $name }}</td>
+			<td>Email: 	 {{ $email }}</td>
+			<td>Mobile:  {{ $mobile }}</td>
+			<td>Address: {{ $address }}</td>
+			<td>Message: {{ $message }}</td>
 		</tr>
 	</table>
 </body>
